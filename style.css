@@ -63,9 +63,12 @@ button:hover {
     transform: translateY(-3px);
 }
 
+button:focus {
+    outline: none;
+}
+
 :active.btn {
     transform: translateY(0);
-    outline: none;
 }
 
 .footer {
