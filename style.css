@@ -54,6 +54,7 @@ body {
     border: none;
     width: 20em;
     cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
 }
 
 button:hover {
@@ -64,6 +65,7 @@ button:hover {
 
 :active.btn {
     transform: translateY(0);
+    outline: none;
 }
 
 .footer {
@@ -89,6 +91,7 @@ button:hover {
     justify-content: center;
     align-items: center;
     margin: 0 0.6em;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .link:hover {
