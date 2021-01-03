@@ -31,7 +31,7 @@ body {
 
 .description {
     text-align: center;
-    margin-top: 2em;
+    margin-top: 1em;
 }
 
 .description h1 {
@@ -84,16 +84,16 @@ button:focus {
 }
 
 .link {
-    padding: 0.5em;
-    border: 2px solid white;
-    color: white;
-    width: 2em;
-    height: 2em;
-    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 0.6em;
+    padding: 0.5em;
+    border: 2px solid white;
+    border-radius: 50%; 
+    color: white;
+    width: 2em;
+    height: 2em; 
     -webkit-tap-highlight-color: transparent;
 }
 
