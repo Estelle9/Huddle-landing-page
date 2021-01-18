@@ -15,6 +15,7 @@ body {
 }
 
 .main-container {
+    position: relative;
     margin: 0.5em 1em;
 }
 
@@ -103,7 +104,8 @@ button:focus {
 }
 
 .attribution {
-    bottom: 0;
+    position: absolute;
+    bottom: -2em;
     margin-top: 0.5em;
     font-size: 11px;
     text-align: center;
